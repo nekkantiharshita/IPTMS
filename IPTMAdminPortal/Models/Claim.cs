@@ -13,7 +13,7 @@ namespace IPTMAdminPortal.Models
 
         [Key]
         
-        public int ClaimId { get; set; }
+        public int ClaimnumberId { get; set; }
         public int PlanId { get; set; }
         public string PatientName { get; set; }
         public string AilmentName { get; set; }
