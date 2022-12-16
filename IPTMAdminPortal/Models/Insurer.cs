@@ -11,7 +11,7 @@ namespace IPTMAdminPortal.Models
     {
 
         [Key]
-        public int InsurerId { get; set; }
+        public int InsurernumberId { get; set; }
         public string InsurerName { get; set; }
        
         public string InsurerPackageName { get; set; }
